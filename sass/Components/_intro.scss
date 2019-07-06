@@ -1,0 +1,56 @@
+@import "../Variabels/variabels";
+#intro {
+  background-image: url(.././Images/hero_bg_1.webp);
+//   height: 100vh;
+  .container {
+    .row {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 50px;
+      .deejee {
+        font-size: 32px;
+        color: $color-text-white;
+        font-weight: 800;
+        left: 0;
+      }
+      .deejee::after {
+        content: ".";
+        color: $color-pink;
+      }
+      .menu {
+        ul {
+          display: flex;
+          li {
+            padding: 10px 5px;
+            a {
+              text-decoration: none;
+              padding: 10px;
+              letter-spacing: 0.05em;
+              color: rgba(255, 255, 255, 0.6);
+              transition: 0.3s all ease;
+            }
+            a:hover {
+              color: $color-text-white !important;
+            }
+            .active {
+              color: $color-text-white !important;
+            }
+          }
+        }
+      }
+    }
+    .row ~ .heading {
+        margin-top: 40px !important;
+      h1 {
+        color: $color-text-white;
+        font-size: 4rem;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-family: "Oswald", sans-serif;
+        margin-bottom: 16px !important;
+        text-align: center !important;
+      }
+    }
+  }
+}

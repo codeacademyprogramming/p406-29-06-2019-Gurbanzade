@@ -1,0 +1,146 @@
+button {
+  padding: 20px 40px;
+  background-color: #333333;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header {
+  background-color: #333333;
+  max-height: 60px;
+}
+
+.icon-desktop-monitor:before {
+  content: "\e902";
+}
+
+.icon-icon-tablet:before {
+  content: "\e904";
+}
+
+.icon-icon-mobile-phone:before {
+  content: "\e907";
+}
+
+.icon-cloud-download:before {
+  content: "\e901";
+}
+
+.icon-icon-remove:before {
+  content: "\e909";
+}
+
+#header .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  vertical-align: center;
+}
+
+#header .main .logo a {
+  text-decoration: none;
+}
+
+#header .main .icons {
+  display: inline-block;
+}
+
+#header .main .icons ul li {
+  display: inline-block;
+}
+
+#header .main .icons ul li a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?ufa08u");
+  src: url("fonts/icomoon.eot?ufa08u#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?ufa08u") format("truetype"), url("fonts/icomoon.woff?ufa08u") format("woff"), url("fonts/icomoon.svg?ufa08u#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak-as: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  content: "\e900";
+  color: #d75a4a;
+}
+
+.icon-cloud-download:before {
+  content: "\e901";
+}
+
+.icon-desktop-monitor:before {
+  content: "\e902";
+}
+
+.icon-facebook:before {
+  content: "\e903";
+}
+
+.icon-icon-tablet:before {
+  content: "\e904";
+}
+
+.icon-icon-instagram:before {
+  content: "\e905";
+}
+
+.icon-icon-linkedin:before {
+  content: "\e906";
+}
+
+.icon-icon-mobile-phone:before {
+  content: "\e907";
+}
+
+.icon-icon-pinterest:before {
+  content: "\e908";
+}
+
+.icon-icon-remove:before {
+  content: "\e909";
+}
+
+.icon-icon-twitter:before {
+  content: "\e90a";
+}
+
+.icon-icon-youtube:before {
+  content: "\e90b";
+}
+/*# sourceMappingURL=main.css.map */

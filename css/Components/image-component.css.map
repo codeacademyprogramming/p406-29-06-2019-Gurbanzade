@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKQ,uCAAS;EACL,OAAO,EAAE,IAAI;EAGL,uDAAG;IACC,MAAM,EAAE,KAAK",
+"sources": ["../../sass/Components/image-component.scss"],
+"names": [],
+"file": "image-component.css"
+}

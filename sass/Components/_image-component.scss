@@ -1,0 +1,47 @@
+@import "../Variabels/variabels";
+
+.img-list {
+  padding: 50px 0px;
+  .img-item {
+    max-height: 300px;
+    overflow: hidden;
+    position: relative;
+    img {
+      width: 100%;
+      transform: scale(1.05);
+      transition: 0.3s all ease;
+    }
+    .title_item {
+      color: $color-text-white;
+      position: absolute;
+      bottom: 0;
+
+      .title_name {
+        font-family: "Oswald", sans-serif;
+        font-weight: 600;
+        background-color: #e3207b;
+        padding: 10px;
+        font-size: 20px;
+        width: max-content;
+        position: absolute;
+        top: -35px;
+        left: 0px;
+      }
+      .title_desc {
+        font-family: "Nunito Sans", sans-serif;
+        background-color: #000;
+        padding: 8px 10px;
+        line-height: 25px;
+        font-weight: 400;
+      }
+    }
+  }
+  &:hover {
+    .img-item {
+      position: relative;
+      img {
+        transform: scale(1);
+      }
+    }
+  }
+}
